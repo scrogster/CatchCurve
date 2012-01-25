@@ -1,0 +1,11 @@
+Package: CatchCurve
+Title: R functions for estimating survival rates from age-structure samples
+Description: Includes some established methods, such as the Chapman-Robson estimator. A method for 
+	catch-curve estimation with covariates, based on the geometric probability distribution is 		included. This allows estimation of survival rates for composite age-structure samples,
+	conditional on site or individual specific covariates, such as sex, population, species, genotype 		or similar.
+URL: https//github.com/scrogster/CatchCurve
+Version: 0.9
+Maintainer: Michael Scroggie <michael.scroggie@dse.vic.gov.au>
+Author: Michael Scroggie <michael.scroggie@dse.vic.gov.au>
+Depends: R (>= 2.11.0)
+License: GPL-2
