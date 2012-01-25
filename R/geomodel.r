@@ -1,4 +1,4 @@
-geommodel<-function(formula=NULL, data=NULL){
+geomodel<-function(formula=NULL, data=NULL){
 start.params<-rep(0, times=ncol(model.matrix(as.formula(formula), data=data)) )
 modframe<-model.frame(as.formula(formula), data=data)
 mod.mat<- model.matrix(as.formula(formula), data=data)
