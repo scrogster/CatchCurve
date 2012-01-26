@@ -10,10 +10,8 @@ geomodel(formula, data)
 \item{formula}{formula relating the age data to associated covariates}
 \item{data}{dataframe containing the variables in the formula}
 }
- 
- 
-\value{A list with elements "formula", "coefficients", "vcov", "logLik", "df", "AICc"}
- 
+
+\value{list with elements "formula", "coefficients", "vcov", "logLik", "df", "AICc"}
  
 \author{Michael Scroggie}
  
