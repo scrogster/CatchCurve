@@ -32,8 +32,8 @@ opt.params<-optim(par=start.params, fn=geomloglik, hessian=T, method="CG",
                   control=list( trace=F))
 Estimate<-opt.params$par
 names(Estimate)<-dimnames(mod.mat)[[2]]
-Std.err<-sqrt(diag(solve(opt.params$hessian)))
 Vcov<-solve(opt.params$hessian)
+Std.err<-sqrt(diag(Vcov))
 coeffs<-cbind(Estimate, Std.err)
 logLik<-opt.params$value
 df<-length(opt.params$par)
