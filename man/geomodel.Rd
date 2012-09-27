@@ -14,6 +14,8 @@ geomodel(formula, data)
 \value{list with elements "formula", "coefficients", "vcov", "logLik", "df", "AICc"}
  
 \author{Michael Scroggie}
+
+\references{Scroggie, M.P. (2012) Survival of adult smooth froglets (\emph{Geocrinia laevis} complex, Anura, Myobatrachidae) in and around a hybrid zone. \emph{Herpetological Conservation and Biology} 152: 136-144.}
  
 \examples{
 data(geocrinia)

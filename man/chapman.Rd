@@ -14,6 +14,8 @@ chapman(ages)
 \value{list with elemets S_hat and SE(S_hat)}
 
 \author{Michael Scroggie}
+
+\references{Chapman, D.G. and Robson, DS (1960) The analysis of a catch curve. \emph{Biometrics} 16:354-368. 
  
 \examples{
 data(geocrinia)
