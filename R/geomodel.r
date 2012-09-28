@@ -1,24 +1,3 @@
-#'Linear models for catch curve data, using the geometric probability
-#'distribution
-#'
-#'fits linear models to catch curve data with covariates using maximum
-#'likelihood
-#'
-#'
-#'@param formula formula relating the age data to associated covariates
-#'@param data dataframe containing the variables in the formula
-#'@return list with elements "formula", "coefficients", "vcov", "logLik", "df",
-#'"AICc"
-#'@author Michael Scroggie
-#'@references Scroggie, M.P. (2012) Survival of adult smooth froglets
-#'(\emph{Geocrinia laevis} complex, Anura, Myobatrachidae) in and around a
-#'hybrid zone. \emph{Herpetological Conservation and Biology} 152: 136-144.
-#'@examples
-#'
-#'data(geocrinia)
-#'geomodel(age~sex, data=geocrinia)
-#'geomodel(age~1, data=geocrinia)
-#'
 geomodel<-function(formula=NULL, data=NULL){
 start.params<-rep(0, times=ncol(model.matrix(as.formula(formula), data=data)) )
 modframe<-model.frame(as.formula(formula), data=data)
