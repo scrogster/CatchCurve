@@ -1,1 +1,7 @@
 ^\.Rproj\.user$
+\.git
+\.Rhistory
+\.Rcheck
+\.tar\.gz$
+out
+
