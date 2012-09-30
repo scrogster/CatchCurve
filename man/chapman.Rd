@@ -6,7 +6,7 @@ chapman(ages)
 }
  
 \arguments{
-\item{ages}{vector of individual ages, coded such that the first fully-recruited age class is zero.}
+\item{ages}{a vector of individual ages, coded such that the first fully-recruited age class is zero.}
 }
  
 \description{Computes the Chapman-Robson survival estimator and it's standard error from age structure data}
